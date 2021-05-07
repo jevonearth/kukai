@@ -159,7 +159,6 @@ export class SendComponent implements OnInit, OnChanges {
     if (!preparedTransactions) {
       //modalOpen
     } else {
-      console.warn('PrepareResponse', preparedTransactions);
       this.confirmTransactions(preparedTransactions);
     }
   }
