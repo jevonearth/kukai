@@ -9,8 +9,12 @@ export const CONSTANTS: Constants = {
   TEZOS_DOMAIN_CONTRACT: 'KT1P8n2qzJjwMPbHJfi4o8xu6Pe3gaU3u2A3',
   NETWORK: 'mainnet',
   MAINNET: true,
-  NODE_URL: 'https://rpc.tzbeta.net',
+  NODE_URL: 'https://mainnet.kukai.network',
   BLOCK_EXPLORER_URL: 'https://tzkt.io',
+  ALLOWED_EMBED_ORIGINS: [
+    'https://www.truesy.com',
+    'https://playwithbrio.com'
+  ],
   ASSETS: {
     'KT1K9gCRgaLRFKTErYt1wVxA3Frb9FjasjTV': { // kUSD
       kind: 'FA1.2',
@@ -387,6 +391,118 @@ export const CONSTANTS: Constants = {
           description: "DJ MONA LISA is the amalgamation of one of the most recognizable images from 15th century Florence, blended and mixed with BUA’s classic, iconographic pop culture DJ painting. Her flirtatious smile might make you wonder what DJ Mona is mixing up on the 1's & 2's.",
           displayUrl: 'https://cloudflare-ipfs.com/ipfs/QmQzfvT6tPTdECds6Q11NpYcAf9pcjUHqmCBZ9NDjJMotM',
           thumbnailUrl: 'https://cloudflare-ipfs.com/ipfs/QmQzfvT6tPTdECds6Q11NpYcAf9pcjUHqmCBZ9NDjJMotM',
+          shouldPreferSymbol: false,
+          isBooleanAmount: true
+        }
+      }
+    },
+    'KT1KJNPUsHrjhN9iUJMz7DL3WkTcibhGrxse': {
+      kind: 'FA2',
+      category: 'finance',
+      tokens: {
+        '0-23': {
+          name: 'Gerbil Abloh',
+          symbol: '',
+          decimals: 0,
+          description: "",
+          displayUrl: 'https://cloudflare-ipfs.com/ipfs/QmTdRF1uNMQhkHqqrQstiwtZzfsUd39wMUzqCTJSQmE8ef',
+          thumbnailUrl: 'https://cloudflare-ipfs.com/ipfs/QmXATeW5cS1dMHymiHay1HQrhrixSRuAVjPedB2nYg3cAq',
+          shouldPreferSymbol: false,
+          isBooleanAmount: true
+        }
+      }
+    },
+    'KT1AGcbS4TyquQjQsa4fwce3FjLZv2UpGMse': {
+      kind: 'FA2',
+      category: 'finance',
+      tokens: {
+        '0-49': {
+          name: 'I Believe in Goddess voice memo demo 1',
+          symbol: '',
+          decimals: 0,
+          description: "It’s hard to tell this is even the same song. The first time I heard this, I didn’t know what song it was. Then I heard the second version and figured it out. Oh, and the bridge at the end…. What the hell was I thinking?",
+          displayUrl: 'https://cloudflare-ipfs.com/ipfs/Qmauf5qn3gq8dTpQZNVT6iruzuYuAscp7ns2bg6Pe39wdp',
+          thumbnailUrl: 'https://cloudflare-ipfs.com/ipfs/Qmauf5qn3gq8dTpQZNVT6iruzuYuAscp7ns2bg6Pe39wdp',
+          shouldPreferSymbol: false,
+          isBooleanAmount: true
+        }
+      }
+    },
+    'KT1RbCvEFWCJXUswKxWrH9wxgu88hMm8YEZz': {
+      kind: 'FA2',
+      category: 'finance',
+      tokens: {
+        '0-49': {
+          name: 'Total Bummer full band demo',
+          symbol: '',
+          decimals: 0,
+          description: "from the Pump Up the Valuum demo collection. Recorded in 1999. What’s cool about this version is that there’s an octave chord part that we never put on the album. The sound isn’t that great, but Smelly rips and Mel’s octaves are really cool. My vocals…… ugh… Photo by Lisa Johnson",
+          displayUrl: 'https://cloudflare-ipfs.com/ipfs/QmdyEUPQZnF8XKoxAGtidUgLz4AMtBSLFGo7MV3C5r1hsY',
+          thumbnailUrl: 'https://cloudflare-ipfs.com/ipfs/QmdyEUPQZnF8XKoxAGtidUgLz4AMtBSLFGo7MV3C5r1hsY',
+          shouldPreferSymbol: false,
+          isBooleanAmount: true
+        }
+      }
+    },
+    'KT1Gba7KnVXB563kxmk4mgKUQ4ujP8yFbQfr': {
+      kind: 'FA2',
+      category: 'finance',
+      tokens: {
+        '0-27': {
+          name: 'Herojuana cassette demo',
+          symbol: '',
+          decimals: 0,
+          description: "I wrote this in 1999 and clearly I couldn’t decide if it was going to be a fast song or a slow song. I don’t know what the hell I was singing about either. Just place holder lyrics, but I think they sound kind of sweet. I think it would have been better slow…. Oh well. Photo by Krousky.",
+          displayUrl: 'https://cloudflare-ipfs.com/ipfs/QmeoazGDgUdykHWWVG99bd1ifVUzpVq6wZcrv7toLbehqM',
+          thumbnailUrl: 'https://cloudflare-ipfs.com/ipfs/QmeoazGDgUdykHWWVG99bd1ifVUzpVq6wZcrv7toLbehqM',
+          shouldPreferSymbol: false,
+          isBooleanAmount: true
+        }
+      }
+    },
+    'KT1UQaoRqLgFvsTwprgsGXj84DT9Wm5jC7tY': {
+      kind: 'FA2',
+      category: 'finance',
+      tokens: {
+        '0-49': {
+          name: 'I Believe in Goddess full band demo',
+          symbol: '',
+          decimals: 0,
+          description: "",
+          displayUrl: 'https://cloudflare-ipfs.com/ipfs/QmWFUrVwyexUcNPsCgQriHLZ4ea5oXBomjyddrcRxJJeqC',
+          thumbnailUrl: 'https://cloudflare-ipfs.com/ipfs/QmWFUrVwyexUcNPsCgQriHLZ4ea5oXBomjyddrcRxJJeqC',
+          shouldPreferSymbol: false,
+          isBooleanAmount: true
+        }
+      }
+    },
+    'KT1K1vBSP5MyKfBBpyHEjmCHTuYeugid4Tqn': {
+      kind: 'FA2',
+      category: 'finance',
+      tokens: {
+        '0-49': {
+          name: 'I Believe in Goddess voice memo demo 3',
+          symbol: '',
+          decimals: 0,
+          description: "",
+          displayUrl: 'https://cloudflare-ipfs.com/ipfs/QmSsRt6PXMii8uCC6mNhMHfcwPuYJEDtK7JG5avEuJypTz',
+          thumbnailUrl: 'https://cloudflare-ipfs.com/ipfs/QmSsRt6PXMii8uCC6mNhMHfcwPuYJEDtK7JG5avEuJypTz',
+          shouldPreferSymbol: false,
+          isBooleanAmount: true
+        }
+      }
+    },
+    'KT1FCCDtoG71hJb4KiUegpCqGr1GDG3YyY7g': {
+      kind: 'FA2',
+      category: 'finance',
+      tokens: {
+        '0-49': {
+          name: 'I Believe in Goddess voice memo demo 2',
+          symbol: '',
+          decimals: 0,
+          description: "Recorded in 2009- What is the deal with me and that lame bridge. Stop it! At least I got a better hold on the verse, and I started to write the cool guitar riff. I actually wish I would of kept the rhythm at 2:20. Whoops. Photo by Jonathon Weiner",
+          displayUrl: 'https://cloudflare-ipfs.com/ipfs/QmcU5pmCwcwvHaArZLaabF5PTnbqpCoUr67ywgga796rAU',
+          thumbnailUrl: 'https://cloudflare-ipfs.com/ipfs/QmcU5pmCwcwvHaArZLaabF5PTnbqpCoUr67ywgga796rAU',
           shouldPreferSymbol: false,
           isBooleanAmount: true
         }

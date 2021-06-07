@@ -5,8 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.5);
 }
 div.direct-auth-login {
   margin: 0 0.25rem;
@@ -56,23 +55,40 @@ div.direct-auth-login > div.body div.login-options.vertically {
 }
 div.direct-auth-login > div.body div.login-options.vertically div.login-option {
   margin: 0.5rem 0;
+  padding-left: 1.25rem;
+  display: flex;
+  align-items: center;
+  background: white;
+  width: 17rem;
+  height: 3.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #CFCFCF;
+}
+div.direct-auth-login > div.body div.login-options.vertically div.login-option > span {
+  font-family: 'Inter', sans-serif !important;
+  margin-left: 1.625rem;
+  font-weight: 700 !important;
+  color: #5D5D5D;
 }
 
 // Vertical login buttons
 div.direct-auth-login > div.body div.login-options.horizontally {
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 4;
 }
 div.direct-auth-login > div.body div.login-options.horizontally div.login-option {
   display: flex;
   justify-content: center;
   align-items: center;
   background: white;
+  margin: 0.5rem;
   border-radius: 0.625rem;
   width: 90px;
-  height: 60px
+  height: 60px;
 }
 div.direct-auth-login > div.body div.login-options.horizontally div.login-option:hover {
   background: #eaebf9;
